@@ -61,8 +61,18 @@ int main()
     printf("Pib per capita: %f reais\n", pibpercapitA);
     printf("Super Poder: %f\n", Superpoder);
 
-    printf("Carta 1 venceu %u\n", populacao > populacaO);
-    //*Saida de dados da carta
+    //*Variáveis e formatos da carta 2
+
+    printf("Comparação das cartas:\n");
+    printf("População: Carta 1 venceu %u\n", (populacao > populacaO));
+    printf("Área: Carta 1 venceu %u\n", area > areA);
+    printf("Pib: Carta 1 venceu %u\n", pib > piB);
+    printf("Pontos Turísticos: Carta 1 venceu %u\n", Pontosturisticos > pontosturisticoS);
+    printf("Densidade Populacional: Carta 1 venceu %u\n", densidadepopulacional > desnsidadepopulacionaL);
+    printf("PIB per capita: Carta 2 venceu %u\n", pibpercapita > pibpercapitA);
+    printf("Super Poder: Carta 1 venceu %u\n", superPoder > Superpoder);
+
+    //*Comparação das cartas;
 
 
 

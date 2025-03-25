@@ -63,15 +63,56 @@ int main()
 
     //*Variáveis e formatos da carta 2
 
-    printf("Comparação das cartas:\n");
-    printf("População: Carta 1 venceu %u\n", (populacao > populacaO));
-    printf("Área: Carta 1 venceu %u\n", area > areA);
-    printf("Pib: Carta 1 venceu %u\n", pib > piB);
-    printf("Pontos Turísticos: Carta 1 venceu %u\n", Pontosturisticos > pontosturisticoS);
-    printf("Densidade Populacional: Carta 1 venceu %u\n", densidadepopulacional > desnsidadepopulacionaL);
-    printf("PIB per capita: Carta 2 venceu %u\n", pibpercapita > pibpercapitA);
-    printf("Super Poder: Carta 1 venceu %u\n", superPoder > Superpoder);
+    printf("Comparação das cartas(Atributo População):\n");
+    if (populacao > populacaO)
+    {printf("Carta 1 - Brasília(DF: 28.170.68 Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT: 623.000 Venceu!)\n");
+    }
+    
+    printf("Comparação das cartas(Atributo Área):\n");
+    if (area > areA)
+    {printf("Carta 1 - Brasília(DF: 5789.16km²  Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT: 4327.44km² Venceu!)\n");
+    }
 
+    printf("Comparação das cartas(Atributo Pib):\n");
+    if (pib > piB)
+    {printf("Carta 1 - Brasília(DF: 265.84 bilhões de reais  Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT: 237.00 bilhões de reais Venceu!)\n");
+    }
+    
+    printf("Comparação das cartas(Atributo Pontos turísticos):\n");
+    if (Pontosturisticos > pontosturisticoS)
+    {printf("Carta 1 - Brasília(DF:30 pontos Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT:16 pontos Venceu!)\n");
+    }
+    
+    printf("Comparação das cartas(Atributo Densidade Populacional):\n");
+    if (densidadepopulacional > desnsidadepopulacionaL)
+    {printf("Carta 1 - Brasília(DF:486.610840 hab/km² Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT:143.965027 hab/km² Venceu!)\n");
+    }
+    
+    printf("Comparação das cartas(Atributo Pib per capita):\n");
+    if (pibpercapita > pibpercapitA)
+    printf("Carta 1 - Brasília(DF:0.00094 reais Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT:0.000380 reais Venceu!)\n");
+    }
+    
+
+    printf("Comparação das cartas(Atributo Super Poder):\n");
+    if (superPoder > Superpoder)
+    {printf("Carta 1 - Brasília(DF:28231530000 Venceu!)\n");
+    }else
+    {printf("Carta 2 - Cuiabá(MT:627580437500 Venceu!)\n");
+    }
+    
     //*Comparação das cartas;
 
 
